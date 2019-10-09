@@ -5,7 +5,7 @@
 using namespace std;
 //https://docs.microsoft.com/en-us/cpp/standard-library/regex-typedefs?view=vs-2017&redirectedfrom=MSDN
 //https://docs.microsoft.com/en-us/cpp/standard-library/regular-expressions-cpp?redirectedfrom=MSDN&view=vs-2019
-//
+//g++ -std=c++14 string_regex.cpp
 int main() {
     string line;
     regex email(R"(\w+@(\w+\.)+\w+)");
